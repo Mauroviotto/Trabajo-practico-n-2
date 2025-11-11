@@ -1,0 +1,102 @@
+/* *{
+    margin: 0px;
+}
+ul{background-color: blueviolet;
+    list-style: none;
+    border-radius: 10px;
+    height: 500px;
+}
+.Trabajo{
+    text-decoration: none;
+    background-color: red;
+    width: 80%;
+    border-radius: 10px;
+    height: 10%;
+    margin-top: 3%;
+}
+main{
+    background-color: blueviolet;
+    width: 50%;
+    border-radius: 10px;
+    height: 80%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 200px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+main {
+    background-color: blueviolet;
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.Trabajo {
+    margin: 10px 0;
+}
+
+.Trabajo a {
+    display: block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.Trabajo a:hover {
+    background-color: darkred;
+}
+
+.redes img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+body {
+    background-color: #3b1c5a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

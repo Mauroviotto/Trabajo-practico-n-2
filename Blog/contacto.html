@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="publicaciones.html">Publicaciones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+<section class="feed">
+
+    <article class="articulo-contenedor">
+
+        <h1 class="titulo-articulo">Contacto</h1>
+        <p class="meta-articulo">¿Querés enviarme un mensaje? Completa el formulario.</p>
+
+        <hr>
+
+        <div class="cuerpo-articulo">
+
+            <p>
+                Si tenés alguna duda, sugerencia, consulta o simplemente querés charlar
+                sobre perfumes árabes, podés escribirme usando este formulario. 
+                ¡Voy a leer tu mensaje con gusto!
+            </p>
+
+            <img src="./img/perfil.jpeg" class="img-acerca" alt="Foto de Mauro">
+
+            <!-- FORMULARIO -->
+            <form action="mensaje-enviado.html" method="get" class="formulario-contacto">
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label>Seleccioná tu motivo de contacto:</label><br>
+                <input type="radio" id="consulta" name="motivo" value="consulta" required>
+                <label for="consulta">Consulta</label><br>
+
+                <input type="radio" id="sugerencia" name="motivo" value="sugerencia">
+                <label for="sugerencia">Sugerencia</label><br>
+
+                <input type="radio" id="otros" name="motivo" value="otros">
+                <label for="otros">Otros</label><br><br>
+
+                <label for="pais">Seleccioná tu país:</label><br>
+                <select id="pais" name="pais" required>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="paraguay">Paraguay</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea><br><br>
+
+                <label for="usuario">Usuario (opcional):</label><br>
+                <input type="text" id="usuario" name="usuario"><br><br>
+
+                <label for="password">Contraseña (opcional):</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="Enviar mensaje" class="btn-leer">
+            </form>
+
+        </div>
+
+        <hr>
+
+        <a href="index.html" class="btn-leer">← Volver al inicio</a>
+
+    </article>
+
+</section>
+</main>
+
+<footer class="footer-blog">
+    <div class="footer-contenedor">
+
+        <div class="footer-columna">
+            <h3>Información de contacto</h3>
+            <p>Email: mauroviotto@gmail.com</p>
+            <p>Instagram: @mauroviotto</p>
+            <p>Ciudad: Buenos Aires, Argentina</p>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Enlaces rápidos</h3>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Copyright</h3>
+            <p>© 2025 Mauro Viotto</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
