@@ -1,0 +1,263 @@
+.respuestas {
+    background-color:#1E5F74 ;
+    color:#E0C600 ;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 15px 40px;
+    border-radius: 10px;
+
+}
+.nivel {
+    background-color:#1E5F74 ;
+    color: #E0C600;
+    width:200px ;
+    height: 100px;
+    padding-top: 27px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.pregunta{
+    background-color:
+    #1E5F74;color: 
+    #E0C600;
+    width: 500px;
+    height: 100px;
+    padding-top: 25px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+.fondoT{
+    background-color: #0C0F3D;margin: 0cm;border-radius: 10px;height: 1000px;padding-top: 10px;
+
+}
+body{
+    margin: 0px;
+}
+.nivpreg{
+    margin-top: 100px;
+
+}
+.cuestio {
+background-color:#1E5F74 ;
+    color: #E0C600;
+    width:500px ;
+    height: 100px;
+    padding-top: 25px;
+    font-size: 50px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+.inicio{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+    color: #E0C600;
+    text-decoration: none;
+}
+#gifper{
+margin-top: 50px;
+}
+.GANASTE{
+    background-color:#00078F ;
+    color: #E0C600;
+    width:700px ;
+    height: 200px;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: black; 
+    border-radius: 10px;
+}
+#nav li{
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    text-align: center;
+}
+#nav li a{
+    background-color: #1E5F74; 
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 70px;
+    color: white; 
+    border-radius: 5px;
+    
+}
+#nav li a:hover{
+    background-color:white; 
+    color:#1E5F74; 
+}
+.redes li a.instagram {
+background-image: url("../img/ig.webp");
+}
+
+.redes li a.facebook {
+background-image: url("../img/fb.png");
+}
+
+.redes li a.x {
+background-image: url("../img/x.png");
+}
+footer{
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    height: 32vh;
+    text-align: center;
+}
+html, body{
+    height: 100%;
+}
+.columna{
+    display: inline-block;
+    border: 2px solid white;
+    width: 32vw;
+    height: 100%;
+    vertical-align: top;
+}
+#col1 h3{
+    color: white;
+}
+#col1 li{
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+}
+#col1 li a{
+    background-color: #1E5F74;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 70px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+#col2 h3{
+    color: white;
+}
+#col2 li{
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+}
+#col2 li a{
+    background-color: #1E5F74;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 70px;
+    color: white;
+    border-radius: 5px;
+    
+
+}
+#col3 h3{
+    color: white;
+}
+#col3 li{
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+}
+
+#col3 a{
+    background-color: #1E5F74;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 70px;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+ul #redes a img{
+    width: 50px;
+} 
+.redes {
+
+padding: 0;
+display: flex;
+gap: 10px;
+}
+
+.redes li a {
+display: inline-block;
+width: 50px;              
+height: 50px;
+border-radius: 8px;       
+background-color: #1E5F74; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: 60%;     
+transition: 0.3s;
+}
+
+
+.redes li a.instagram {
+background-image: url("img/ig.webp");
+}
+
+.redes li a.facebook {
+background-image: url("img/fb.png");
+}
+
+.redes li a.x {
+background-image: url("img/x.png");
+}
+a{
+    background-color: #1E5F74; 
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 70px;
+    color: #E0C600; 
+    border-radius: 5px;
+    
+}
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #111;
+color: white;
+}
+
+
+h1, h2 {
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+
+h3, .subtitulo {
+font-family: 'Lora', serif;
+font-style: italic;
+}
+
+
+p, li {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+
+
+nav a, .link-inicio {
+font-family: 'Orbitron', sans-serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
