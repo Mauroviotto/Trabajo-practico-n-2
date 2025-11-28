@@ -77,7 +77,6 @@
             color: #e6e6e6;
         }
 
-
         input {
             border-radius: 10px !important;
             width: 100%;
@@ -96,6 +95,7 @@
             transition: 0.3s ease;
             display: inline-block;
             font-family: 'Poppins', sans-serif;
+            cursor: pointer;
         }
 
         .plantate-btn.green {
@@ -198,7 +198,7 @@
                 <p id="resultado" class="fw-bold fs-5 text-center">Árboles: 0</p>
 
                 <div class="text-center">
-                    <a class="plantate-btn green">Confirmar donación</a>
+                    <a class="plantate-btn green" onclick="mostrarDatos()">Confirmar donación</a>
                 </div>
             </div>
         </div>
@@ -241,6 +241,10 @@
 <script>
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
+}
+
+function mostrarDatos() {
+    alert("Alias: plantate.mp\nCBU: 420696715011\nTitular: Bautista Goldberg\nDNI: 47123456");
 }
 
 const input = document.getElementById('donacion')
